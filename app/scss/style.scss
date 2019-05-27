@@ -1,0 +1,14 @@
+.parent {
+	width: percentage(350/768);
+	background: #eee;
+	.child {
+		background: gray;
+	}
+	.child2 {
+		border: 1px solid red;
+	}
+	&.moust {
+		background: #000;
+	}
+
+}
